@@ -1,0 +1,225 @@
+.flex_column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.flex_row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+body .container1 {
+  width: 100%;
+  height: 1000px;
+  background-image: url(../images/Layer_15.jpg);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+body .container1 header {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 28px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+body .container1 header div {
+  font-size: 30px;
+  font-weight: 700;
+}
+body .container1 header ul {
+  width: 620px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+body .container1 header ul li {
+  padding: 12px 0;
+  border-bottom: 3px solid rgba(255, 254, 254, 0);
+}
+body .container1 header ul li a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+}
+body .container1 header ul li a:hover {
+  color: #fce38a;
+}
+body .container1 header ul li:hover {
+  border-color: #fce38a;
+}
+body .container1 section {
+  width: 1200px;
+  height: 545px;
+  margin: 0 auto;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+body .container1 section .block1 {
+  width: 520px;
+  margin: 0 auto;
+  font-family: "Kaushan Script";
+  font-weight: 400;
+  font-size: 72px;
+}
+body .container1 section .block2 {
+  width: 840px;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 150px;
+  line-height: 140px;
+}
+body .container1 section .block3 {
+  width: 60px;
+  margin: 0 auto;
+  height: 3px;
+  background-color: #ffffff;
+}
+body .container1 section button {
+  width: 164px;
+  margin: 0 auto;
+  padding: 12px 29px;
+  background-color: rgba(255, 254, 254, 0);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  border: 3px solid #ffffff;
+}
+body .container1 footer {
+  width: 1200px;
+  margin: 0 auto;
+}
+body .container1 footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+body .container1 footer ul li {
+  width: 280px;
+  padding: 25px 0;
+  text-align: left;
+  border-top: 3px solid #faf3dc;
+}
+body .container1 footer ul li a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #faf3dc;
+  text-decoration: none;
+}
+body .container1 footer ul li a span {
+  padding-right: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+body .container1 footer ul li a:hover {
+  color: #ffffff;
+}
+body .container1 footer ul li:hover {
+  border-color: #ffffff;
+}
+body .container2 {
+  width: 100%;
+  height: 751px;
+  background-color: #ffffff;
+}
+body .container2 .container2_block {
+  width: 1200px;
+  height: 751px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+body .container2 .container2_block .block_header {
+  text-align: center;
+}
+body .container2 .container2_block .block_header .header h3 {
+  margin: 0;
+  font-family: "Kaushan Script";
+  font-weight: 400;
+  font-size: 24px;
+  color: #333333;
+}
+body .container2 .container2_block .block_header .header h2 {
+  margin: 16px 0 0 0;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 30px;
+  color: #333333;
+}
+body .container2 .container2_block .block_header .header .strip {
+  width: 60px;
+  height: 3px;
+  margin: 40px auto;
+  background-color: #f38181;
+}
+body .container2 .container2_block .block_header .block_text {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 7px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3b3b3;
+}
+body .container2 .container2_block .block_images {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+body .container2 .container2_block .block_images div {
+  width: 380px;
+  height: 250px;
+}
+body .container2 .container2_block .block_images .block_image1 {
+  background-color: #95e1d3;
+}
+body .container2 .container2_block .block_images .block_image2 {
+  background-color: #000000;
+}
+body .container2 .container2_block .block_images .block_image3 {
+  background-color: #000000;
+}
+body .container2 .container2_block .block_images img:hover {
+  transform: translate(-10px, -10px);
+}
