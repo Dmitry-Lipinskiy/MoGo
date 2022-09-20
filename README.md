@@ -1,2 +1,2 @@
-Responsive layout of the page according to the layout.
+Responsive page layout based on Photoshop layout.
 # MoGo
